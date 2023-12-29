@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(245, 78, 17);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 30px;
+  background-color: orange;
+  display: inline-flex;
+  gap: 30px;
+}
+
+.hours, .minutes, .seconds {
+  padding: 50px 60px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  border-radius: 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 9px 21px -4px rgba(34, 60, 80, 0.25);
+  -moz-box-shadow: 10px 9px 21px -4px rgba(34, 60, 80, 0.25);
+  box-shadow: 10px 9px 21px -4px rgba(34, 60, 80, 0.25);
+}
+
+.main p {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: normal;
+}
